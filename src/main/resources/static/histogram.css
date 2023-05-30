@@ -1,0 +1,59 @@
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    color: #b5131a;
+}
+
+body {
+    width: 700px;
+}
+
+input[type="text"] {
+    width: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bounds, .histogram, .newGrade {
+    background-color: #e9eff1;
+    padding: 10px;
+    border: 10px solid white;
+}
+
+.histogram, .newGrade {
+    position: relative;
+    left: 10px;
+}
+
+.histogram {
+    z-index: -1;
+}
+
+.bounds {
+    float: left;
+}
+
+.newGrade {
+    border-top: none;
+    padding-bottom: 106px;
+    margin-left:244px;
+    width: 417px;
+}
+
+#boundTable td {
+    padding: 5px 50px 10px 10px;
+}
+
+#disTable td {
+    padding: 4px 20px 4px 10px;
+}
+
+#error {
+    color: #b5131a;
+}
