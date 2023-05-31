@@ -56,7 +56,7 @@ function changeHisto() {
         {
             j = 1
             while(j<12) {
-                if(grades[i]>bounds[j]){
+                if(grades[i]>=bounds[j]){
                     break
                 }
                 else
